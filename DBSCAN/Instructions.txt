@@ -1,0 +1,13 @@
+CODE TESTED AT :
+DBSCAN(data,0.05,10)    # Low epsilon high min points
+DBSCAN(data,0.2,6)    # Neither strict nor relaxed
+DBSCAN(data,0.8,3)    # High epsilon low min points
+
+
+Step 1 : Run ReadDataSet.py ( it reads makeMoons and makes a CSV file  and also adds outliers )
+Step 2 : Run mueed.py ( it reads moonDataset.csv )
+Step 3 : Code already contains the above mentioned test cases so it will Run on those test cases and show output
+Step 4 : DBSCAN function is taking data, eps, minP as arguments.
+Step 5 : You can pass your own values in DBSCAN for testing purposes.
+Step 6 : DBscanRunner is a HELPER function contains inner outer loops and is responsible for clustering and outliers too. 
+Step 7 : Output is shown as graphs

@@ -1,0 +1,6 @@
+
+Step 1 : files are already given. Just run the code. It will take 2 seconds.
+
+Step 2 : to pass your own values, you can pass them in create_partition1(subdata,i) function
+
+Step 3 : Program plots the graphs and shows results
